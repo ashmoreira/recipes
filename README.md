@@ -5,13 +5,11 @@
         <title> Simple Web Page</title>
         <link rel="stylesheet" href="Assignment 1.css">
     </head>
-    
     <body>
         <section>
         <h1> welcome</h1>
         <p>this website will be a simple site to share some of my favorite recipes to make! i wanted to a way to share detailed instructions of how to make my favorite foods with my friends and family. </p>
         </section>
-
         <section>
             <h2> recipe 1</h2>
             <h4>ingredients</h4>
@@ -22,7 +20,6 @@
                 <li>xxxxxx</li>
                 <li>xxxxxx</li>
             </ol>
-
             <h4>directions</h4> 
                 <ol>
                 <li>xxxxxx</li>
@@ -32,8 +29,6 @@
                 <li>xxxxxx</li>
             </ol>
         </section>
-
-        
         <section>
             <h2> recipe 2</h2>
             <h4>ingredients</h4>
@@ -44,7 +39,6 @@
                 <li>xxxxxx</li>
                 <li>xxxxxx</li>
             </ol>
-            
             <h4>directions</h4> 
                 <ol>
                 <li>xxxxxx</li>
@@ -54,8 +48,6 @@
                 <li>xxxxxx</li>
             </ol>
         </section>
-
-        
         <section>
             <h2> recipe 3</h2>
             <h4>ingredients</h4>
@@ -66,7 +58,6 @@
                 <li>xxxxxx</li>
                 <li>xxxxxx</li>
             </ol>
-            
             <h4>directions</h4> 
                 <ol>
                 <li>xxxxxx</li>
