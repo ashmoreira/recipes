@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset = 'utf-8'>
-        <title> Simple Web Page</title>
+        <title> Simple Web Page </title>
         <link rel="stylesheet" href="Assignment 1.css">
     </head>
     <body>
