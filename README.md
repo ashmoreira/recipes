@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
     <head>
         <meta charset = 'utf-8'>
         <title> Simple Web Page</title>
@@ -67,7 +68,6 @@
             </ol>
         </section>
     </body>
-
     <footer>
         <p> website created by ashley moreira 2026</p>
     </footer>
