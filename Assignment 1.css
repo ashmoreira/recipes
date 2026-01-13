@@ -1,5 +1,19 @@
+
+
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
+
 body {
     font-family: garamond, serif;
     font-size: .9em;
     background-color: pink;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif, serif;
+    font-size: 1em;
+    font-style: italic;
 }
