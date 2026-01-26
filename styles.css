@@ -72,7 +72,8 @@ footer {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.1);
+    background:-moz-linear-gradient(pink, gray);
+    background:-webkit-linear-gradient(pink, gray);
     padding: 1px;
 }
 
@@ -91,6 +92,7 @@ footer {
     text-decoration: none;
     color: black;
 }
+
 
 
 
