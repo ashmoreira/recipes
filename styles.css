@@ -60,11 +60,22 @@ h3{
     font-weight: bold;
 }
 
+
 .recipe-pic {
     width: 300px;
     height: auto;
     display: block;
     margin-bottom: 10px;
+    filter: saturate(135%)
+}
+
+
+.recipe-pic-filter {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    filter: saturate(140%)
 }
 
 footer {
@@ -92,6 +103,7 @@ footer {
     text-decoration: none;
     color: black;
 }
+
 
 
 
