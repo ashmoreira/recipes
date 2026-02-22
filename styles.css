@@ -60,31 +60,20 @@ h3{
     font-weight: bold;
 }
 
-
 .recipe-pic {
     width: 300px;
     height: auto;
     display: block;
     margin-bottom: 10px;
-    filter: saturate(135%)
 }
 
-
-.recipe-pic-filter {
-    width: 300px;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
-    filter: saturate(140%)
-}
 
 footer {
     font-family: 'Courier New', monospace;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-    background:-moz-linear-gradient(pink, gray);
-    background:-webkit-linear-gradient(pink, gray);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 1px;
 }
 
@@ -103,6 +92,7 @@ footer {
     text-decoration: none;
     color: black;
 }
+
 
 
 
