@@ -6,25 +6,45 @@ body {
     font-family: Retro Gaming;
     background-color: #FFEFF1;
 }
-nav {     
+
+.navbar {     
     font-family: ByteBounce;
-    font-size: 45px;
-    text-align: left;
+    font-size: 30px;
+    display:grid;
+    grid-template-columns: auto 1fr repeat(2,auto);
+    gap: 15px;
+    padding: 0 20px;
+    align-items:center;
+    border-bottom: 3px dashed white;
+    white-space: nowrap;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-align:end;
+    color: black;
+    font-size: 15px;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
 }
 
 .icon {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     vertical-align: middle;
     margin-right: 10px;
 }
 
-.icon2 {
-    width: 150px;
-    height: 150px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
 .welcome{
     background-image: url(background.jpg);
     width: 100%;
@@ -35,63 +55,177 @@ nav {
     font-family: 'Courier New', monospace;
     font-size: 15px;
     font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 3px dashed white;
 }
 
-h1{
-    font-family: ByteBounce;
-    font-size: 50px;
-    font-weight: normal;
-}
-
-h2{
+.title{
     font-family: Retro Gaming;
     font-size: 20px;
     font-weight: lighter;
 }
 
-h3{
+h1{
+    font-family: ByteBounce;
+    font-size: 35px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+h2 {
     font-weight: lighter;
+} 
+
+h3{
     font-size: 15px;
+    font-family: Retro Gaming;
 }
 
-.recipe {
+.ingredients, .directions {
     font-family: 'Courier New', monospace;
     font-size: 15px;
     font-weight: bold;
 }
 
-.recipe-pic {
-    width: 300px;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
+.ingredients ol { 
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 8px; }
+
+.recipe {
+  border: 3px dashed white;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:20px;
+  max-width: 1200px;
+  margin: 20px auto;
 }
 
+.recipe-main {
+    display: contents;
+}
+
+.title, .dessert-pic, .ingredients, .directions {
+    grid-column: 1 / 2;
+}
+.title {
+    text-align: center;
+}
+.recipe-pic {
+    display: flex;
+    justify-content: center;
+    align-self: center;  
+}
+
+.recipe-pic img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+@media(min-width: 64em) {
+    .navbar {
+        font-size: 50px;
+        gap: 30px;
+    }
+
+    .navbar a{
+        font-size: 25px;
+    }
+
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .recipe {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .title {
+            grid-column: 1 / 3;
+    }
+
+    .recipe-pic {
+        grid-column: 1 / 2;
+    }
+
+    .ingredients {
+        grid-column: 2 / 3;
+    }
+
+    .directions {
+        grid-column: 1 / 3;
+    }
+
+    .ingredients, .directions {
+        font-family: 'Courier New', monospace;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    h3 {
+       font-size: 18px;
+       font-family: Retro Gaming;
+    }
+}
+ 
+@media (min-width: 40em) { 
+    .ingredients ol { 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 45px; 
+    } 
+
+    .navbar a {
+        font-size: 20px;
+    }
+
+     .icon {
+        width: 80px;
+        height: 80px;
+    }
+}
 
 footer {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
     font-family: 'Courier New', monospace;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 1px;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    padding-top:10px;
 }
 
 .footer-links {
     display:flex;
     justify-content: center;
-    gap: 15px; 
+    gap: 50px;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.footer-nav a {
+.footer-links a {
     font-family: 'Courier New', monospace;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     color: black;
 }
+
 
 
 
