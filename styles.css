@@ -48,7 +48,7 @@ body {
 .welcome{
     background-image: url(background.jpg);
     width: 100%;
-    height: 100%;
+    height: auto;
     background-size: cover;
 }
 #aboutme{
@@ -105,7 +105,7 @@ h3{
     display: contents;
 }
 
-.title, .dessert-pic, .ingredients, .directions {
+.title, .recipe-pic, .ingredients, .directions {
     grid-column: 1 / 2;
 }
 .title {
@@ -225,6 +225,7 @@ footer p {
     text-decoration: none;
     color: black;
 }
+
 
 
 
