@@ -29,7 +29,7 @@ body {
     text-decoration: none;
     text-align:end;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     white-space: nowrap;
     padding-right: 10px;
 }
@@ -225,6 +225,7 @@ footer p {
     text-decoration: none;
     color: black;
 }
+
 
 
 
